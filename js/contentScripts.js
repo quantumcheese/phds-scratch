@@ -268,17 +268,19 @@ class TweakInjector {
 		HotkeyInterceptor.hook(document);
 		this._hookEventIframe();
 
-        //if (Config.disableTutorials)
-        try {
-            new HideTutorialsTweak().start();
-        } catch (ex) {
-            console.warn('Unable to hide tutorials.', ex);
+        if (Config.disableTutorials) {
+          try {
+              new HideTutorialsTweak().start();
+          } catch (ex) {
+              console.warn('Unable to hide tutorials.', ex);
+          }
         }
-        //if (Config.disableSprites)
-        try {
-            new HideSpritesTweak().start();
-        } catch (ex) {
-            console.warn('Unable to hide sprites buttons.', ex);
+        if (Config.disableSprites) {
+          try {
+              new HideSpritesTweak().start();
+          } catch (ex) {
+              console.warn('Unable to hide sprites buttons.', ex);
+          }
         }
 
 		Helpers.applyStylesheets();
