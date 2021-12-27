@@ -1,0 +1,60 @@
+{
+	"type": "object",
+	"properties": {
+		"disableImageWebSearch": {
+			"title": "Hide image web search",
+			"description": "...",
+			"type": "boolean"
+		},
+		"disableImageAddByURL": {
+			"title": "Prevent inserting images by URL",
+			"description": "Requires disableImageWebSearch to be active",
+			"type": "boolean"
+		},
+		"disableVideoWebSearch": {
+			"title": "Hide video web search",
+			"description": "...",
+			"type": "boolean"
+		},
+		"disableExplore": {
+			"title": "Hide the explore/research pane",
+			"description": "...",
+			"type": "boolean"
+		},
+		"disableSharing": {
+			"title": "Hide sharing functions",
+			"description": "...",
+			"type": "boolean"
+		},
+		"disableLinks": {
+			"title": "Prevent creating links",
+			"description": "...",
+			"type": "boolean"
+		},
+		"disableDictionary": {
+			"title": "Prevent dictionary from being used",
+			"description": "...",
+			"type": "boolean"
+		},
+		"disableComments": {
+			"title": "Prevent comments from being created",
+			"description": "...",
+			"type": "boolean"
+		},
+		"disableFormsPublishing": {
+			"title": "Prevent forms from being published/sent",
+			"description": "...",
+			"type": "boolean"
+		},
+		"disableGames": {
+			"title": "Hide playable games from Google Search results",
+			"description": "...",
+			"type": "boolean"
+		},
+		"disableSheetsExternalRequests": {
+			"title": "Disables functions IMPORTDATA, IMPORTFEED, IMPORTHTML, IMPORTRANGE, IMPORTXML in Sheets",
+			"description": "...",
+			"type": "boolean"
+		}
+	}
+}
